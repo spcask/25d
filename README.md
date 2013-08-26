@@ -9,5 +9,7 @@ of these 25 day challenges is inspired by Matt Cutt's idea to
 The following is a list of my 25 day challenges.
 
   1. [2013-05: Learn ray tracing with POV-Ray] [1]
+  2. [2013-07: Write QuickQWERTY 1.0.0] [2]
 
 [1]: 2013-05#readme
+[2]: 2013-07#readme
