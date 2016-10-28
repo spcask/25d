@@ -55,6 +55,7 @@ features and refactoring code.
     25   2013-08-25  2.5 h  Download page
 
     Total Time:     40.5 h
+    Average:         1.6 h/d
 
 
 Conclusion

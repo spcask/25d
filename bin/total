@@ -1,0 +1,27 @@
+#!/bin/sh
+for file in 25d-README.md README.md
+do
+    [ -e "$file" ] || continue
+
+    lines=$(grep "[0-9][0-9].*[0-9][0-9]*\.[0-9][0-9]* h" "$file")
+
+
+    days=$(printf "%s\n" "$lines" | wc -l)
+
+    hours=$(printf "%s\n" "$lines" | tr -s " " |
+            cut -d" " -f4 | (tr "\n" +; echo 0;) | bc)
+
+    avg=$(echo "$hours / $days" | bc -l)
+
+    hours_line=$(printf "%16s%8.1f h" "Total  " "$hours")
+    avg_line=$(printf "%16s%8.1f h\/d" "Average" "$avg")
+
+    sed "s/^ *Total *[0-9.]* h$/$hours_line/" "$file" |
+    sed "s/^ *Average *[0-9.]* h\/d$/$avg_line/" > "$file.tmp"
+    mv "$file.tmp" "$file"
+
+    printf "%5.1f d\n" "$days"
+    printf "%5.1f h\n" "$hours"
+    printf "%5.1f h/d\n" "$avg"
+    break
+done

@@ -1,4 +1,4 @@
-May 2013: Learn ray tracing with POV-Ray
+May 2013: Learn Ray Tracing with POV-Ray
 ========================================
 Four years ago, I wrote [a simple ray tracer][JRT] in Java to render a
 scene hard-coded in the source code. After writing this ray tracer, I
@@ -523,6 +523,7 @@ rendering the images.
     25   2013-05-31  3.0 h  Dice
 
     Total Time:     47.0 h
+    Average:         1.9 h/d
 
 Conclusion
 ----------
@@ -539,7 +540,6 @@ available source code of POV-Ray scenes described by other POV-Ray
 users, and managed to describe and render many simple scenes. However,
 there were a lot of options, features, language directives, effects,
 etc. that I could not find time for in these 25 days. These things can
-be learnt in future by studying the official [POV-Ray
-documentation][DOC].
+be learnt in future by studying the official [POV-Ray documentation][DOC].
 
 [DOC]: http://www.povray.org/documentation/
