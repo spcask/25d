@@ -16,8 +16,8 @@ reading this guide. They can be found at
 The experiments performed while reading this guide led to two
 StackOverflow questions.
 
-  1. [Why can a client receive messages after shutdown(sockfd, SHUT_RD)?][SO2]
-  2. [Why is netcat unable to receive the second broadcast message?][SO1]
+  1. [Why can a client receive messages after shutdown(sockfd, SHUT_RD)?][SO1]
+  2. [Why is netcat unable to receive the second broadcast message?][SO2]
 
 [BGNET]: http://beej.us/guide/bgnet/
 [SO1]: http://stackoverflow.com/q/39698037/303363
