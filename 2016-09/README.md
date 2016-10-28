@@ -64,5 +64,5 @@ shows the pages and sections read each day.
     24   2016-10-26  1.5 h  76-82: 9.11-9.16
     25   2016-10-27  2.0 h  83-99: 9.17-9.24, 10.1-10.3
 
-         Total      34.5 h
+         Total      35.0 h
          Average     1.4 h/d
